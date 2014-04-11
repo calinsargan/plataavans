@@ -1,6 +1,6 @@
 # My_Module, just an example
 app/code/local/Copimaj/PlataAvans/                   app/code/local/Copimaj/PlataAvans/
 app/design/adminhtml/default/default/layout/*	app/design/adminhtml/default/default/layout/
-app/design/adminhtml/default/default/template/*      app/design/frontend/adminhtml/default/template/
+app/design/adminhtml/default/default/template/copimaj      app/design/frontend/adminhtml/default/template/copimaj
 app/design/frontend/default/default/layout/*      app/design/frontend/default/default/layout/
 app/etc/modules/Copimaj_PlataAvans.xml          app/etc/modules/Copimaj_PlataAvans.xml
