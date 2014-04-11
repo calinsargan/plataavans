@@ -8,9 +8,13 @@ class Copimaj_PlataAvans_IndexController extends Mage_Core_Controller_Front_Acti
 			Mage::getSingleton('core/session')->setIsPlataAvans(true);
 		} else {
 			// remove session
-			
 			Mage::getSingleton('core/session')->setIsPlataAvans(false);
 		}
+
+		if ($payment = $this->getRequest()->getParam('payment')) {
+			Mage::getSingleton('core/session')->setPaymentType($payment);	
+		}
+
 	}
 
 	public function uninstallAction() {
