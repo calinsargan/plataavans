@@ -1,0 +1,5 @@
+# My_Module, just an example
+code                   app/code/local/Copimaj/PlataAvans/
+frontend/layout/*      app/design/frontend/default/default/layout/
+frontend/template      app/design/frontend/default/default/template/copimaj
+Copimaj_PlataAvans.xml          app/etc/modules/Copimaj_PlataAvans.xml
